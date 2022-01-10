@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+img {
+    height: 8em;
+}
+
+.logo {
+    height: 3em;
+}
+
+.cajaParrafo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.parrafo{
+    font-size: 20px;
+    padding: 50px;
+    text-align: justify;
+
+}
+
+/*Presentación*/
+.quienSomos{
+
+    padding: 50px;
+    height: 100vh;
+    border-radius: 100px;
+}
+
+.organizacion__presentacion {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#nosotros {
+    background-color: #fdf6eb;
+
+}
+
+/*Productos*/
+#contenedor_productos {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#columna__producto  {
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+/*Formulario*/
+#formulario {
+    background-color: #fdf6eb;
+    padding: 3%;
+    font-size: medium;
+    font-weight:bold;
+
+}
+
+#formulario p{
+    color: indigo;
+    font-size:small;
+    font-weight:normal;
+}
+
+/*Validación de campos del formulario en js*/
+.bordesError {
+    border: 1px solid red;
+}
+.texto_error{
+    color: red;
+}
+
+.bordesOk {
+    border: 1px solid green;
+}
+.texto_ok{
+    color: green;
+}
+
+
+
